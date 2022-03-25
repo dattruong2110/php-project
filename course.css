@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vid-course-content {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
+    display: flex;
+}
+
+.vid-course-left {
+    width: 100%;
+}
+
+.vid-content {
+    width: 98%;
+}
+
+.vid-main-content {
+    width: 100%;
+}
+
+.vid-description {
+    margin-top: 10px;
+}
+
+.vid-title {
+    font-size: 2.2rem;
+    line-height: 2rem;
+}
+
+.vid-title-detail {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.vid-detail-course {
+    display: flex;
+    align-items: center;
+}
+
+.vid-detail-text {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-left: 10px;
+}
+
+.vid-course-right {
+    display: flex;
+}
+
+.detail-course {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.vid-course-link {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.vid-course-link:hover {
+    color: #9c9c9c;
+}
+
+.img-vid-course {
+    width: 120px;
+}
+
+.vid-course-title {
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
