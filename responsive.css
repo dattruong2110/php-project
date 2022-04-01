@@ -1,3 +1,13 @@
+@media (min-width: 1441px) and (max-width: 1550px) {
+    .header {
+        max-width: 100%;
+    }    
+    
+    .img-banner {
+        width: 1350px;
+    }
+}
+
 @media (min-width: 1367px) and (max-width: 1440px) {
     .header {
         max-width: 100%;

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="course-route.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header card-shadow card-hover-shadow">
+        <nav class="navbar navbar-pc">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <div class="nav-logo">
+                        <a href="index.html" class="logo-img-link">
+                            <img onerror="this.src='/img/error-image.jpg'" src="" class="logo-img" alt="Logo">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="navbar-item elements-item--has-list">
+                    <div class="nav-item">
+                        <p class="nav-text-item">
+                            Categories
+                        </p>
+                    </div>
+
+                    <div class="home-elements">
+                        <ul class="list-elements">
+                            <li class="element-items">
+                                <a href="" class="elements-link">
+                                    <span class="element-name">
+                                        Web Development
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="element-items">
+                                <a href="" class="elements-link">
+                                    <span class="element-name">
+                                        Data Science
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="element-items">
+                                <a href="" class="elements-link">
+                                    <span class="element-name">
+                                        Mobile Development
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="element-items">
+                                <a href="" class="elements-link">
+                                    <span class="element-name">
+                                        Software Testing
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="element-items">
+                                <a href="" class="elements-link">
+                                    <span class="element-name">
+                                        Game Development
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="nav-search">
+                        <input type="text" class="nav-search-input" placeholder="Search...">
+                        <button type="submit" class="search-btn">
+                            <i class="search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="nav-item">
+                        <p class="nav-text-item">
+                            Udemy Business
+                        </p>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="nav-item">
+                        <p class="nav-text-item">
+                            Tech on Udemy
+                        </p>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="nav-item">
+                        <button class="cart-btn">
+                            <i class="btn-cart-icon fas fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="nav-item">
+                        <button class="btn-style">
+                            Login
+                        </button>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="nav-item">
+                        <button class="btn-style">
+                            Register
+                        </button>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="nav-item">
+                        <button class="btn-lang">
+                            <i class="btn-lang-icon fas fa-globe"></i>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <label for="navbar_mobile-input" class="navbar_bars-btn">   
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+        </label>
+
+        <input type="checkbox" hidden name="" class="navbar-input" id="navbar_mobile-input" style="margin-top: 25px;">
+
+        <label for="navbar_mobile-input" class="navbar_overlay"></label>
+            
+        <nav class="navbar_mobile">
+            <label for="navbar_mobile-input" class="navbar_mobile-close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>
+            </label>
+
+            <ul class="navbar_mobile-list">
+                <li class="navbar_mobile-item">
+                    <a class="navbar_mobile-link" href="">Log in</a>
+                </li>
+
+                <li class="navbar_mobile-item"> 
+                    <a class="navbar_mobile-link" href="">Log in</a>
+                </li>
+
+                <li class="navbar_mobile-item">
+                    <a class="navbar_mobile-link" href="">Web Development</a>
+                </li>
+
+                <li class="navbar_mobile-item">
+                    <a class="navbar_mobile-link" href="">Data Science</a>
+                </li>
+
+                <li class="navbar_mobile-item">
+                    <a class="navbar_mobile-link" href="">Mobile Development</a>
+                </li>
+
+                <li class="navbar_mobile-item">
+                    <a class="navbar_mobile-link" href="">Software Testing</a>
+                </li>
+
+                <li class="navbar_mobile-item">
+                    <a class="navbar_mobile-link" href="">Game Development</a>
+                </li>
+
+                <li class="navbar_mobile-item">
+                    <div class="nav_mobile-item">
+                        <button class="btn-lang">
+                            <i class="btn-lang-icon fas fa-globe"></i>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="navbar_mobile-icon-list">
+            <li class="navbar-mobile-item">
+                <div class="nav-logo">
+                    <a href="" class="logo-img-link">
+                        <img onerror="this.src='/img/error-image.jpg'" src="" class="logo-img" alt="Logo">
+                    </a>
+                </div>
+            </li>
+
+            <li class="navbar-mobile-item">
+                <div class="nav-item">
+                    <button class="cart-btn">
+                        <i class="btn-cart-icon fas fa-cart-plus"></i>
+                    </button>
+                </div>
+            </li>
+        </nav>
+    </header>
+
+    <div class="all-route" style="margin-top: 100px;">
+        <div class="route-header">
+            <h1 class="header-course-route">
+                Courses Route
+            </h1>
+        </div>
+
+        <div class="route-body">
+            <div class="header__route-body">
+                <h1 class="route-title-course">
+                     HTML & CSS
+                </h1>
+
+                <a href="" class="view-detail-link">
+                    View Details
+                </a>
+            </div>
+
+            <ul class="list-course">
+                <li class="course-item">
+                    <a href="/course-introduction.html" class="course-item-link">
+                        <img src="https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg" alt="" class="course-image-item">
+                        <h2 class="title-course-item">Learn Python: The Complete Python Programming Course</h2>
+                    </a>
+                </li>
+
+                <li class="course-item">
+                    <img src="https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg" alt="" class="course-image-item">
+                    <h2 class="title-course-item">Learn Python: The Complete Python Programming Course</h2>
+                </li>
+
+                <li class="course-item">
+                    <img src="https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg" alt="" class="course-image-item">
+                    <h2 class="title-course-item">Learn Python: The Complete Python Programming Course</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <footer>
+            <div class="footer_container">
+                <div class="noi-dung about">
+                    <h2>About Us</h2>
+                    <p class="footer_text">Skill up to success. Udemy is a leading destination for online courses
+                        that empowers you to grow professionally and personally. Get the app to explore our
+                        expansive library of thousands of topics with cutting-edge online video courses in Coding,
+                        Development, Python, Java, Business, Marketing, SEO, SEM, Design, Drawing, Photography, and
+                        much more.</p>
+                    <ul class="social-icon">
+                        <li><a href=""><i class="icon-style fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="icon-style fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="icon-style fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="icon-style fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="noi-dung links">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a class="text_links" href="#">Home</a></li>
+                        <li><a class="text_links" href="#">About Us</a></li>
+                        <li><a class="text_links" href="#">Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="noi-dung contact">
+                    <h2>Contact Information</h2>
+                    <ul class="info text_links">
+                        <li>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>475 Dien Bien Phu<br />
+                                Binh Thanh District, Sai Gon<br />
+                                Vietnam</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span>
+                            <p><a href="#">+84 123 456 789</a>
+                            </p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <p><a href="#">hutech@gmail.com</a></p>
+                        </li>
+                        <li>
+                            <form class="form">
+                                <input type="email" class="form__field" placeholder="Register Subscribe Email" />
+                                <button type="button" class="btn btn--primary  uppercase">Submit</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>

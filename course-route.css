@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-route {
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.header-course-route {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.route-body {
+    margin-top: 10px;
+}
+
+.route-title-course {
+    font-size: 2.1rem;
+}
+
+.view-detail-link {
+    text-decoration: none;
+    color: rgb(52, 52, 238);
+    font-size: 1.2rem;
+}
+
+.view-detail-link:hover {
+    color: rgb(111, 39, 246);
+}
+
+.header__route-body {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.list-course {
+    margin-top: 20px;
+    display: flex;
+}
+
+.course-item {
+    display: block;
+    margin-right: 30px;
+    width: 250px;
+}

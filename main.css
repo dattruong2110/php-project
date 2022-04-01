@@ -242,9 +242,10 @@
     display: block;
     position: absolute;
     left: 0;
-    top: -22px;
+    top: -35px;
     width: 60px;
-    height: 29px;
+    height: 65px;
+    background-color: red;
 }
 
 @keyframes navbarElementItems {
