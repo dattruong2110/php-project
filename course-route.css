@@ -23,6 +23,7 @@
 }
 
 .view-detail-link {
+    /* margin-right: 180px; */
     text-decoration: none;
     color: rgb(52, 52, 238);
     font-size: 1.2rem;
@@ -38,12 +39,33 @@
 }   
 
 .list-course {
-    margin-top: 20px;
+    margin-bottom: 40px;
     display: flex;
 }
 
 .course-item {
     display: block;
-    margin-right: 30px;
+    margin-right: 50px;
     width: 250px;
+}
+
+.title-course-item {
+    margin-top: 10px;
+}
+
+.course-item-link {
+    color: var(--text-color);
+    text-decoration: none;
+    position: relative;
+}
+
+.course-image-item {
+    border-radius: 8px;
+    width: 250px;
+    opacity: 1;
+    display: block;
+}
+
+.course-image-item:hover {
+    opacity: 0.7;
 }
