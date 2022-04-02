@@ -243,7 +243,7 @@
     position: absolute;
     left: 0;
     top: -50px;
-    width: 60px;
+    width: 90px;
     height: 65px;
 }
 
@@ -286,9 +286,13 @@
 }
 
 /* body */
-.img{
+/* .img{
     margin-top: 100px;
     margin-left: 95px;
+} */
+
+.container {
+    margin-top: 100px;
 }
 
 .img-banner {
@@ -340,8 +344,9 @@
 }
 
 .course_list-img {
-    width: 250px;
+    width: 270px;
     opacity: 1;
+    border-radius: 8px;
 }
 
 .course_list-img:hover {

@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
-.main-course {
-    margin-left: 95px;
+.main-content {
     display: flex;
     align-items: center;
 }
 
-.course-intro {
+.main-course {
+    margin-left: 95px;
     width: 50%;
+}
+
+.course-intro {
     line-height: 3rem;
     margin-top: 5px;
 }
@@ -38,6 +41,11 @@
     cursor: pointer;
 }
 
+.course-img {
+    width: 350px;
+    border-radius: 8px;
+}
+
 .course-img-link {
     color: var(--white-color);
 }
@@ -48,16 +56,17 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-left: -140px;
-    margin-top: 50px;
+    margin-left: -195px;
+    margin-top: 75px;
 }
 
 .buy-course {
     margin-left: 20px;
     line-height: 4.5rem;
+    text-align: center;
 }
 
-.add-cart-btn {
+.purple-btn {
     font-size: 1.4rem;
     width: 200px;
     height: 35px;
@@ -65,20 +74,12 @@
     color: var(--white-color);
     border: none;
     cursor: pointer;
-}
-
-.buy-now-btn {
-    font-size: 1.4rem;
-    width: 200px;
-    height: 35px;
-    background-color: var(--white-color);
-    color: var(--text-color);
-    border: 1px solid var(--black-color);
-    cursor: pointer;
+    border-radius: 8px;
 }
 
 .course-include {
-    margin-left: 30px;
+    text-align: center;
+    margin-left: 40px;
 }
 
 .list-course-include {
@@ -96,8 +97,13 @@
 }
 
 .course-description {
-    margin-left: 95px;
-    width: 50%;
+    /* margin-left: 95px;
+    width: 50%; */
+    margin-top: 10px
+}
+
+.course-author-link {
+    color: #a435f0;
 }
 
 .course-description-text {
@@ -108,4 +114,19 @@
 
 .course-description-list-style {
     margin-left: 25px;
+}
+
+.knowledge-list-content {
+    display: flex;
+    margin-top: 10px;
+}
+
+.list-content {
+    margin-right: 20px;
+}
+
+.knowledge {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
 }

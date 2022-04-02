@@ -39,3 +39,11 @@ html {
     box-shadow: 0 4px 10px 0 #00000033,0 4px 20px 0 #00000030;
 }
 
+.scroll {
+    border: 1px solid var(--text-color);
+    height: 510px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0px auto;
+    background: #f1f1f1;
+}
