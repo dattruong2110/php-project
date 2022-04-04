@@ -378,6 +378,10 @@
 }
 
 /* CSS footer*/
+.link-cv {
+    color: #f5f5f5;
+}
+
 footer{
     position: relative;
     width: 100%;
