@@ -130,3 +130,31 @@
     font-size: 1.4rem;
     line-height: 2.5rem;
 }
+
+.course-content-container-header {
+    display: flex; 
+    justify-content: space-between;
+    background: #f5f5f5;
+    border-radius: 8px;
+    /* padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px; */
+    padding: 20px;
+    cursor: pointer;
+    border: 1px solid #e9e9e9;
+}
+
+.course-content-detail {
+    display: none;
+    margin: 0 20px;
+}
+
+.display {
+    display: block;
+}
+
+.course-content {
+    margin-top: 15px; 
+    display: flex; 
+    justify-content: space-between;
+}

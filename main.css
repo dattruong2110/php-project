@@ -5,17 +5,18 @@
 }
 
 .header {
+    display: flex;
     height: 70px;
     background-color: var(--white-color);
-    position:fixed;
     width:100%;
     z-index:1;
     top:0;
-    display: flex;
 }
 
 .navbar {
-    margin: 5px 80px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .navbar-list {
@@ -137,6 +138,15 @@
 .btn-lang:hover {
     background-color: #ccc;
     color: var(--white-color);
+}
+
+.username {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.username:hover {
+    color: #ccc;
 }
 
 .navbar_bars-btn {
